@@ -1,0 +1,100 @@
+body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 500px;
+    color: #000;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table thead tr {
+    background-color: rgb(217,217,217);
+}
+
+table thead tr th {
+    padding: 8px 15px;
+}
+
+table thead tr th:nth-child(1) {
+    width: 50%;
+}
+
+table thead tr th:nth-child(2),
+table thead tr th:nth-child(3) {
+    width: 25%;
+}
+
+table tbody tr td {
+    padding: 7px 15px;
+    text-align: center;
+}
+
+table tbody tr td:first-child {
+    text-align: left;
+}
+
+button {
+    padding: 7px 15px;;
+}
+.groupTable{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto 0;
+}
+
+.alert {
+    padding: 15px;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.alert-error {
+    background-color: rgba(255,0,0,0.3);
+    border: 1px solid rgb(234,125,99);
+    margin-bottom: 30px;
+}
+
+.alert-success {
+    background-color: rgba(50,204,11,0.3);
+    border: 1px solid rgb(132,192,113);
+}
+
+.action-group a {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.action-group a:first-child {
+    padding-left: 0;
+}
+
+.action-group a:last-child {
+    padding-right: 0;
+}
+
+.action-group a + a {
+    border-left: 1px solid black;
+}
+
+.error {
+    color: red;
+}
+
+
+
